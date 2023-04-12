@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mood Tracker | WellSynch</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <!-- Navigation panel -->
+    <nav>
+      <ul>
+        <li><a href="WellSynch.html">Home</a></li>
+        <li class="active"><a href="mood-tracker.html">Mood Tracker</a></li>
+        <li><a href="exercise.html">Exercise Routine</a></li>
+        <li><a href="recipes.html">Healthy Recipes</a></li>
+        <li class="login-btn"><button type="button">Login</button></li>
+        <li class="register-btn"><button type="button">Register</button></li>
+      </ul>
+    </nav>
+    
+    <!-- Mood tracker form -->
+    <div class="mood-tracker">
+      <h1>Mood Tracker</h1>
+      <form>
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time">
+        </div>
+        <div class="form-group">
+          <label for="mood">Mood:</label>
+          <select id="mood" name="mood">
+            <option value="happy">Happy</option>
+            <option value="content">Content</option>
+            <option value="neutral">Neutral</option>
+            <option value="frustrated">Frustrated</option>
+            <option value="angry">Angry</option>
+            <option value="sad">Sad</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="notes">Notes:</label>
+          <textarea id="notes" name="notes" rows="4"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    
+  </body>
+</html>
