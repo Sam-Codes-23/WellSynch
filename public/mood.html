@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="mood.css">
+</head>
+<body>
+
+    <!-- Navigation panel -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mood.html">Mood Tracker</a></li>
+            <li><a href="exercise.html">Exercise Routine</a></li>
+            <li><a href="recipes.html">Healthy Recipes</a></li>
+            <li class="login-btn"><button type="button">Login</button></li>
+            <li class="register-btn"><button type="button">Register</button></li>
+        </ul>
+    </nav>
+
+
+    <h1>Mood Tracker</h1>
+
+    <form id="mood-form">
+        <label for="mood">How are you feeling?</label>
+        <select id="mood" required>
+            <option value="">Select a mood</option>
+            <option value="happy">Happy</option>
+            <option value="neutral">Neutral</option>
+            <option value="sad">Sad</option>
+        </select>
+        <button type="submit">Log Mood</button>
+    </form>
+
+    <h2>Your Mood History:</h2>
+    <div id="mood-chart"></div>
+
+    <script src="mood.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+﻿nav {
+    background-color: grey;
+    overflow: hidden;
+    font-family: "Roboto";
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav li {
+        float: left;
+    }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+        }
+
+            nav li a:hover {
+                background-color: #111;
+            }
+
+.login-btn {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.register-btn {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+/* Style the recipe list */
+#recipe-list {
+    font-family: "Roboto";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+.recipe {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .recipe h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+        .recipe h2 a {
+            color: black;
+            text-decoration: none;
+        }
+
+            .recipe h2 a:hover {
+                text-decoration: underline;
+            }
+
+    .recipe p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }

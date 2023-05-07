@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Routine</title>
+    <link rel="stylesheet" href="exercise-routine.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mood.html">Mood Tracker</a></li>
+            <li><a href="exercise.html">Exercise Routine</a></li>
+            <li><a href="recipes.html">Healthy Recipes</a></li>
+            <li class="login-btn"><button type="button">Login</button></li>
+            <li class="register-btn"><button type="button">Register</button></li>
+        </ul>
+    </nav>
+
+
+    <h1>Personalized Exercise Routine</h1>
+
+    <form id="exercise-form">
+        <label for="exercise-name">Exercise Name:</label>
+        <input type="text" id="exercise-name" required>
+        <label for="reps">Reps:</label>
+        <input type="number" id="reps" required>
+        <label for="sets">Sets:</label>
+        <input type="number" id="sets" required>
+        <button type="submit">Add Exercise</button>
+    </form>
+
+    <h2>Your Exercise Plan:</h2>
+    <ul id="exercise-list">
+    </ul>
+
+    <script src="exercise-routine.js"></script>
+</body>
+</html>

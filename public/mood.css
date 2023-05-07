@@ -1,0 +1,99 @@
+﻿/* navigation style */
+nav {
+    background-color: grey;
+    overflow: hidden;
+    font-family: "Roboto";
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav li {
+        float: left;
+    }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+        }
+
+            nav li a:hover {
+                background-color: #111;
+            }
+
+.login-btn {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.register-btn {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#mood-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+    #mood-form select {
+        padding: 5px;
+    }
+
+    #mood-form button {
+        padding: 5px 10px;
+        background-color: #007BFF;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+        #mood-form button:hover {
+            background-color: #0056B3;
+        }
+
+#mood-chart {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.mood-item {
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+    .mood-item.happy {
+        background-color: #DFF0D8;
+    }
+
+    .mood-item.neutral {
+        background-color: #F0F0F0;
+    }
+
+    .mood-item.sad {
+        background-color: #F2DEDE;
+    }
